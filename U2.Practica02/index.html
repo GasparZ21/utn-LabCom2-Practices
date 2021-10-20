@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U2P2</title>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>
+            Presentacion:
+        </h1>
+        <p1>
+            Esta pagina web sera realizada segun las consignas dadas en la practica numero 2 de HTML.
+        </p1>
+    </section>
+    <hr>
+    <section>
+        <p1>
+            En la siguiente tabla se veran reflejadas las notas de las materias correspondientes al primer cuatrimestre de la TUP:
+        </p1>
+        <table style="background-color: aqua;">
+            <thead>
+                    <tr>
+                        <td>
+                            materias
+                        </td>
+                        <td>
+                            notas
+                        </td>
+                        <td>
+                            nota final
+                        </td>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        matematica I
+                    </td>
+
+                    <td>
+                         <p>P1: 6</p> <p>P2: 6</p> <p>P3: 7</p> <p>P4: 5</p> 
+                    </td>
+
+                    <td>
+                        Nota final: 6
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ingles I
+                    </td>
+
+                    <td>
+                        <p>P1: 4</p>
+                        <p>Recuperatorio: 6</p>
+                    </td>
+
+                    <td>
+                        nota final: 6
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Programacion I
+                    </td>
+
+                    <td>
+                        <p>P1: 9</p>
+                        <p>P2: 9</p>
+                    </td>
+
+                    <td>
+                        nota final: 9
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Lab.Programacion I
+                    </td>
+
+                    <td>
+                        <p>P1: 1</p>
+                        <p>P2: 6</p>
+                        <p>Recuperatorio: 6</p>
+                    </td>
+
+                    <td>
+                        nota final: 6
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h1><u>Registro de estudiante al sistema</u></h1>
+        <form>
+            <fieldset>
+                    <legend>estudiante</legend>
+                    <label for="nombre completo">Nombre completo</label>
+                    <input 
+                    type="text"
+                    name="nombre completo" 
+                    id="nombre completo"
+                    />
+                    <br>
+                    <br>
+                    <label for="e-mail">direccion de e-mail</label>
+                    <input
+                    type="text"
+                    name="e-mail"
+                    id="e-mail"
+                    />
+                    <br>
+                    <br>
+                    <label for="edad">edad</label>
+                    <input
+                    type="number"
+                    name="edad"
+                    id="edad"
+                    />
+                    <br>
+                    <br>
+                    <label for="nacionalidad">nacionalidad</label>
+                    <select name="nacionalidad" id="nacionalidad">                        
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Bolivia">Bolivia</option>
+                    </select>
+                    <select name="Condicion laboral" id="Condicion laboral">
+                        <option value="desempleado">desempleado</option>
+                        <option value="en busqueda laboral">en busqueda laboral</option>
+                        <option value="trabajo part-time">en busqueda laboral</option>
+                        <option value="trabajo full-time">trabajo full-time</option>
+                    </select>
+                    <br>
+                    <br>
+                    <legend>Gustos personales</legend>
+                    <br>
+                    <label for="musica">gustos musicales</label>
+                    <input
+                    type="text"
+                    name="musica"
+                    id="musica"
+                    />
+                    <br>
+                    <br>
+                    <label for="comidas">comidas preferidas</label>
+                    <input
+                    type="text"
+                    name="comidas"
+                    id="comidas"
+                    />
+                    <br>
+                    <label for="checkbox">Guardar cambios</label>
+                    <input
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                    />
+                    <br>
+                    <input
+                    type="submit"
+                    value="enviar">
+            </fieldset>
+        </form>    
+    </section>
+</body>
+</html>
